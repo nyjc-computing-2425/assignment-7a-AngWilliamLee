@@ -63,7 +63,7 @@ def text_numeral(num):
         tens = NUM_WORD[count*10]
     else:
         tens = ""
-    return str(f"{tens} {NUM_WORD[num]}")
+    return f"{tens} {NUM_WORD[num]}"
 
 
 
